@@ -34,9 +34,9 @@ client.on(`message`, (message) => {
       .setTitle("A pretty message")
       .setColor(0xff0000)
       .setDescription("Hola", message.author)
-      .addField("Something One", "Some content", true)
-      .addField("Something Two", "Some content Two", true)
-      .addField("Something Three", "Some content Three", false)
+      .addField("relleno One", "Mas contenido", true)
+      .addField("relleno Two", "mas contenido", true)
+      .addField("relleno Three", "mas contenido", false)
       .setAuthor(
         "ApexBot",
         "https://pngimage.net/wp-content/uploads/2018/05/code-logo-png-4.png"
